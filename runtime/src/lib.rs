@@ -248,7 +248,7 @@ impl pallet_balances::Config for Runtime {
 impl pallet_nicks::Config for Runtime {
 	type Currency = Balances;
 
-	type ReservationFee = ConstU123<100>;
+	type ReservationFee = ConstU128<100>;
 
 	type Slashed = ();
 
